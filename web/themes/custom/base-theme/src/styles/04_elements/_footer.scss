@@ -1,0 +1,11 @@
+.site-footer {
+  height:200px;
+  text-align:center;
+  background: #0000ff url(/themes/custom/base-theme/dist/img/footer.jpg) center center;
+  background-size: cover;
+
+  .content {
+    font-size:40px;
+    background:rgba(0,0,0,0.4);
+  }
+}

@@ -1,0 +1,76 @@
+/* ==  PALETA DE COLORES =================== */
+
+/* Corporativos */
+
+$gris:            #8D8E8F;
+$azul:            #00637C;
+$turquesa:        #00ACC0;
+
+/* Color relacionado con la línea de negocio */
+
+$granate:         #741D47;
+$rosa:            #BD1550;
+$verde:           #568E1D;
+$naranja:         #D87200;
+$lila:            #7624FF;
+
+$color-linea1:    $granate;
+$color-linea2:    $rosa;
+$color-linea3:    $verde;
+$color-linea4:    $naranja;
+$color-linea5:    $lila;
+
+
+/* Grises */
+$gris-negro:      #1B1B1B;
+$gris-oscuro:     #3B3B3B;
+$gris-claro:      #676868;
+$gris-muy-claro:  #E5E5E5;
+$gris-blanco:     #F2F2F2;
+
+/* ==  TIPOGRAFIA =============================== */
+
+$font-family-base: 'Roboto', sans-serif;
+
+
+$font-size-base:          16px;
+
+$font-size-small:         12px;
+$font-size-medium:        14px;
+$font-size-xmedium:       18px;
+$font-size-large:         24px;
+$font-size-xlarge:        32px;
+$font-size-xxlarge:       68px;
+
+
+$font-size-h1:            76px;
+$font-size-h2:            44px;
+$font-size-h3:            24px;
+$font-size-h4:            20px;
+
+$font-size-h1-tablet:     50px;
+$font-size-h2-tablet:     28px;
+$font-size-h3-tablet:     20px;
+$font-size-h4-tablet:     18px;
+
+$font-size-h1-mobile:     36px;
+$font-size-h2-mobile:     28px;
+$font-size-h3-mobile:     20px;
+$font-size-h4-mobile:     18px;
+
+
+$hover-default-time: 0.2s;			// Tiempo a usar para hover de elementos
+
+/* == VARIABLES GENERALES DE BOOTSTRAP ======= */
+$border-radius-base: 0;
+
+/* ==  MARGENES ============================== */
+$margin-xxsmall:3px;
+$margin-xsmall:6px;
+$margin-small:10px;
+$margin: 20px;
+$margin-medium: $margin * 2; //40px
+$margin-xmedium: $margin-medium + 20px; //60px
+$margin-large: 	$margin-medium * 2; // 80px
+$margin-xlarge: $margin-large + 20px; // 100px
+$margin-xxlarge: $margin-xlarge + 50px; // 150px

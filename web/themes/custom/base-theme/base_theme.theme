@@ -1,0 +1,13 @@
+<?php
+/**
+ * @file
+ * Theme hooks for Base Theme.
+ */
+// Remove Query Strings from CSS filenames (CacheBuster)
+function base_theme_preprocess_html(&$variables) {
+  Drupal::state()->set('system.css_js_query_string', null);
+}
+
+
+
+
