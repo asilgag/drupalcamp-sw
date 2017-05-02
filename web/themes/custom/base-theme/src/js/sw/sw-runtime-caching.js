@@ -24,7 +24,7 @@
     // (opcional, se puede cachear al vuelo con global.toolbox.router.get)
     '/sites/default/files/css/css_Sr-zrzbdX7e1D5RQ_QtqOK_J8ztT5TgNbD9A14dx0Pw.css?0',
     '/sites/default/files/css/css_3lBjB9LxWGvT5F_MnCGazkuov6eT9QNhKr0hGqtNWTk.css?0',
-    '/sites/default/files/css/css_WnG86hYTEKXA2Z1zaCesivqS6Xi2U-r16CQEo0o1N7A.css?0',
+    '/sites/default/files/css/css_uRYxP28I3YazA72rsR9rOx7Fx7OnKOzMWs81IMqO7go.css?0',
 
     // Assets JS de las urls anteriores
     // (opcional, se puede cachear al vuelo con global.toolbox.router.get)

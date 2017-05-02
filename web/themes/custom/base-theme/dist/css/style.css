@@ -296,6 +296,34 @@ body:not(:target) .region-primary-menu .menu-toggle:after {
     font-size: 40px;
     background: rgba(0, 0, 0, 0.4); }
 
+.service-worker-confirm {
+  background-color: #000;
+  width: 280px;
+  padding: 15px 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.17px;
+  color: white;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+  display: none; }
+  .service-worker-confirm a {
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #00ACC0; }
+    .service-worker-confirm a:active {
+      text-decoration: none; }
+  .service-worker-confirm.visible {
+    display: block !important;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 50%;
+    margin-left: -160px; }
+
 /*
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
 @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/badges";
