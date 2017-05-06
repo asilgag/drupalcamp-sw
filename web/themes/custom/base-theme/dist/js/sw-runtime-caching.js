@@ -45,7 +45,7 @@
     global.toolbox.router.get(url, global.toolbox.fastest);
   });
 
-  // Aparte, cacheasmo lo que haya dentro de files, excepto CSS y JS
+  // Aparte, cacheamos lo que haya dentro de files, excepto CSS y JS
   global.toolbox.router.get(/\/sites\/default\/files\/((?!css|js).)*\/.*/, global.toolbox.fastest);
 
   // Drupal usa content hashing para las urls de CSS y JS,
